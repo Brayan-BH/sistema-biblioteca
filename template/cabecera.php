@@ -13,7 +13,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #982649;">
-        <div class="container-fluid">
+        <div class="container">
                 <ul class="navbar-nav mr-auto ">
                     
                         <a class="navbar-brand" href="index.php">

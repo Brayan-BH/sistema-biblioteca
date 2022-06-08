@@ -35,15 +35,17 @@
     <?php  $url = "http://".$_SERVER['HTTP_HOST']?>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <div class="nav navbar-nav">
-            <a class="nav-item nav-link active navbar-brand" href="">Administrador del sitio Web</a>
-            <a class="nav-item nav-link" href="<?php echo $url?>/administrador/inicio.php"><i class="fas fa-home"></i> Inicio</a>
-
-            <a class="nav-item nav-link" href="<?php echo $url;?>/administrador/seccion/productos.php"><i class="fas fa-book"></i> Libros</a>
-            <a class="nav-item nav-link" href="<?php echo $url;?>/administrador/seccion/estudiantes.php"><i class="fas fa-users"></i> Estudiantes</a>
-            <a class="nav-item nav-link" href="<?php echo $url;?>/administrador/seccion/prestamos.php"><i class="fas fa-hand"></i> Prestamos</a>
-            <a class="nav-item nav-link" href="<?php echo $url;?>"><i class="fas fa-eye"></i> Ver sitio Web</a>
-            <a class="nav-item nav-link" href="<?php echo $url;?>/administrador/seccion/cerrar.php"><i class="fas fa-door-open"></i> Salir</a>
+        <div class="container">
+            <div class="nav navbar-nav">
+                <a class="nav-item nav-link active navbar-brand" href="">Administrador del sitio Web</a>
+                <a class="nav-item nav-link" href="<?php echo $url?>/administrador/inicio.php"><i class="fas fa-home"></i> Inicio</a>
+    
+                <a class="nav-item nav-link" href="<?php echo $url;?>/administrador/seccion/productos.php"><i class="fas fa-book"></i> Libros</a>
+                <a class="nav-item nav-link" href="<?php echo $url;?>/administrador/seccion/estudiantes.php"><i class="fas fa-users"></i> Estudiantes</a>
+                <a class="nav-item nav-link" href="<?php echo $url;?>/administrador/seccion/prestamos.php"><i class="fas fa-hand"></i> Prestamos</a>
+                <a class="nav-item nav-link" href="<?php echo $url;?>"><i class="fas fa-eye"></i> Ver sitio Web</a>
+                <a class="nav-item nav-link" href="<?php echo $url;?>/administrador/seccion/cerrar.php"><i class="fas fa-door-open"></i> Salir</a>
+            </div>
         </div>
     </nav>
 
